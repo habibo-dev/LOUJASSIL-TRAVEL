@@ -1,1 +1,15 @@
 .brand img,.footer-brand img,.about-card img{display:none!important}.brand:before{content:"";width:48px;height:48px;flex:none;border-radius:50%;background:url('/loujassil-logo.svg') center/cover no-repeat;border:1px solid rgba(212,175,55,.65)}.footer-brand:before{content:"";display:block;width:90px;height:90px;border-radius:50%;background:url('/loujassil-logo.svg') center/cover no-repeat;border:1px solid rgba(212,175,55,.6)}.about-card{background-color:#052c29;background-image:url('/loujassil-logo.svg');background-repeat:no-repeat;background-position:center 30px;background-size:72% auto;padding-top:300px}.about-card p{position:relative}.hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(2,25,22,.94),rgba(3,44,39,.38),rgba(3,44,39,.25));z-index:1}.hero-content{z-index:2}
+
+/* Final polish */
+html[dir="rtl"] body{font-family:Arial,"Noto Sans Arabic",sans-serif}
+html[dir="rtl"] .hero,.page-hero{text-align:right}
+html[dir="rtl"] .hero-actions,html[dir="rtl"] .hero-meta,html[dir="rtl"] .mini-list{direction:rtl}
+html[dir="rtl"] .eyebrow:before{display:none}
+html[dir="rtl"] .eyebrow:after{content:"";width:28px;height:1px;background:var(--gold)}
+html[dir="rtl"] .destination-copy{left:auto;right:24px}
+html[dir="rtl"] .offer-image span{left:auto;right:15px}
+html[dir="rtl"] .card-number{right:auto;left:24px}
+html[dir="rtl"] .card-arrow{right:auto;left:26px}
+:focus-visible{outline:2px solid #d4af37;outline-offset:3px}
+button:disabled{cursor:not-allowed;opacity:.6}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
